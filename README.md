@@ -24,27 +24,29 @@
 #### - Connect the analysis.py file to the database engine.
 #### - Extract business insights and perform data analysis.
 
+
+
 ## project implementation steps
 ### Data Scraping:
-#### Utilize the curl command for JSON back-end fetch requests in Python.
-#### Code can be found in the "Scraping_code" directory.
+#### - Utilize the curl command for JSON back-end fetch requests in Python.
+#### - Code can be found in the "Scraping_code" directory.
 
 ### Docker Compose:
-#### Create a Docker Compose file in the "Docker" directory to build and run "PostgreSQL database and pgAdmin" services.
+#### - Create a Docker Compose file in the "Docker" directory to build and run "PostgreSQL database and pgAdmin" services.
 
 ### Database Schema:
-#### Develop a database schema from the extracted data.
-#### Include the .sql DDL file in the "Schema" directory.
+#### - Develop a database schema from the extracted data.
+#### - Include the .sql DDL file in the "Schema" directory.
 
 ### Data Validation:
-#### Implement data validation processes before transforming and loading data into the database.
-#### Code can be found in the "Data_validation" directory.
+#### - Implement data validation processes before transforming and loading data into the database.
+#### - Code can be found in the "Data_validation" directory.
 
 ### ETL (Extract, Transform, Load):
-#### Read the extracted data as a Pandas dataframe.
-#### Perform data transformation and load data into database tables.
-Code is located in the "ETL" folder.
+#### - Read the extracted data as a Pandas dataframe.
+#### - Perform data transformation and load data into database tables.
+#### - Code is located in the "ETL" folder.
 
-Business Insights:
-Connect to the database, extract relevant business insights.
-Find insights in the "Insights" directory.
+### Business Insights:
+#### - Connect to the database, extract relevant business insights.
+#### - Find insights in the "Insights" directory.
