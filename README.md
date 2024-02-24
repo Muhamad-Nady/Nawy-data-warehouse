@@ -23,6 +23,11 @@
 #### - Extract business insights and perform data analysis.
 
 
+![Nawy](https://github.com/Muhamad-Nady/Nawy-data-warehouse/assets/34611160/a4c3db57-328e-49fd-86f5-963cc4e8db82)
+
+
+
+
 
 ## project implementation steps
 ### Data Scraping:
