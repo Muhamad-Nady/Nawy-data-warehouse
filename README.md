@@ -19,7 +19,7 @@
 ### 6. ETL Process
 #### - Perform the Extract, Transform, Load (ETL) process to populate the data warehouse schema.
 ### 7. Business Insights
-#### - Connect the analysis.py file to the database engine.
+#### - Connect the insights.ipynb file to the database engine.
 #### - Extract business insights and perform data analysis.
 
 
