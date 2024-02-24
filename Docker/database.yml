@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: nawy
+      POSTGRES_USER: nady
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      your_network:
+        ipv4_address: 172.20.0.3 
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: muhamednady20@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    networks:
+      your_network:
+        ipv4_address: 172.20.0.2
+volumes:
+  postgres_data:
+  pgadmin_data:
+
+networks:
+  your_network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.20.0.0/16

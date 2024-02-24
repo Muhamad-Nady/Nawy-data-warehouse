@@ -1,0 +1,16 @@
+curl 'https://webapi.cooingestate.com/api/properties/search?token=undefined&language=en&client_id=2094001443.1696698901' \
+  -H 'authority: webapi.cooingestate.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.nawy.com' \
+  -H 'referer: https://www.nawy.com/' \
+  -H 'sec-ch-ua: "Chromium";v="118", "Microsoft Edge";v="118", "Not=A?Brand";v="99"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: cross-site' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.57' \
+  --data-raw '{"show":"compound","start":1}' \
+  --compressed
